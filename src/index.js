@@ -4,8 +4,8 @@ import Header from "./components/Header";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
-import About from "./About";
-import Contact from "./Contact";
+import About from "./components/About";
+import Contact from "./components/Contact";
 
 const App = () => {
     return (
