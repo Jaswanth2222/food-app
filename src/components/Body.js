@@ -1,6 +1,10 @@
+import RestaurantCard from "./RestaurantCard";
+import RestaurantCardContainer from "./RestaurantCardContainer";
 const Body = () => {
     return (
-        <h1>Body Component</h1>
+        <div>
+            <RestaurantCardContainer />
+        </div>
     )
 }
 
