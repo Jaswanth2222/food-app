@@ -6,13 +6,13 @@ Developing a food delivery app
 ### Commands and step by step procedure to oush code from working durectory to remote repository.
 
 1. Firdt create a reposittiry in github with a name related to your project.
-2. open cmd prompt and type a cmd "git clone <remote repository code>"
-3. now the repo folder will get stored in to your working directory , open this in your vs code and intially there will be only one branch called <master> and we are not allowed to make any changes in it
-4. so now we need to create an branch called <develop> which we need to push this to our remote with file README.md, commands to push our file
+2. open cmd prompt and type a cmd "git clone "remote repository code""
+3. now the repo folder will get stored in to your working directory , open this in your vs code and intially there will be only one branch called "master" and we are not allowed to make any changes in it
+4. so now we need to create an branch called "develop" which we need to push this to our remote with file README.md, commands to push our file
 
-creating a branch git checkout -b <branch name>
+creating a branch git checkout -b "branch name"
 
-git add . ==> to add multiple files, git add <file name> to add a single file to staging area.
+git add . ==" to add multiple files, git add "file name" to add a single file to staging area.
 git  commit -m "commit message" moving file from staging area to local directory
 git push -u origin develop moving files from local directory to remote repo
 
@@ -32,7 +32,7 @@ now come to cmd and sync the code which is in develop in remote to working direc
 
 git pull
 
-and if there are other branches merge the code from develop to these branches, switch to branch by entering cmd git checkout <branch name>
+and if there are other branches merge the code from develop to these branches, switch to branch by entering cmd git checkout "branch name"
 
 merge the code from develop
 
@@ -50,10 +50,10 @@ git merge develop
 
 3. Node modules is a folder which consists of dependencies that we have installed from npm, actually npm doesn't have any name, it is managin packages so people are use to call it as node package manager
 
-4. Transistive dependency means we need parcticular package for our project, so we simply download it by npm i <package name>, this pakage is dependent on some other package which we dont know and this will get automatically installed with out any external command.
+4. Transistive dependency means we need parcticular package for our project, so we simply download it by npm i "package name", this pakage is dependent on some other package which we dont know and this will get automatically installed with out any external command.
 
 5. component composition means importing a component inside another component
 
-eg, we import <Header /> in <App />
+eg, we import "Header /" in "App /"
 
 6. 
