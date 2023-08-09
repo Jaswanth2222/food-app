@@ -56,4 +56,17 @@ git merge develop
 
 eg, we import "Header /" in "App /"
 
-6. 
+## Why is react so fast##
+React is fast because of virtual dom and react fiber
+Virtual dom is a copy of actual dom
+Before React16 react fiber is known as Reconciliation and after that it is knoown as React fiber and react fiber is a process which consists of diff alogorithm which compares actual dom virtual dom whenever there is a chnage in the state due to some kind of action fist the virtual dom will get updated and diff algo compares th e actual dom and the virtual dom and it will re-render only the updated elents without re-rendering the whole compoent
+
+### Let's get into Hools now ###
+
+1. What is a hook in react?, Basically a hook is an javasecipt function which was written by facebook   developers and and they have stored it in react package and we are using by importing it
+
+2. What is useState in react?
+Usually in React it is not possible to update a defined variable, so to overcoome this we use a hook known as useState which consists of a variable and a function, now whenever there is an update with the help of the function we can update the variable with the latest value or data
+
+### useState() syntax###
+const [variable, function] = useState(accepts an initial value);
