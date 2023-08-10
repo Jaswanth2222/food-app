@@ -63,10 +63,20 @@ Before React16 react fiber is known as Reconciliation and after that it is knoow
 
 ### Let's get into Hools now ###
 
-1. What is a hook in react?, Basically a hook is an javasecipt function which was written by facebook   developers and and they have stored it in react package and we are using by importing it
+ What is a hook in react?, Basically a hook is an javasecipt function which was written by facebook   developers and and they have stored it in react package and we are using by importing it
 
-2. What is useState in react?
+1. What is useState in react?
 Usually in React it is not possible to update a defined variable, so to overcoome this we use a hook known as useState which consists of a variable and a function, now whenever there is an update with the help of the function we can update the variable with the latest value or data
 
 ### useState() syntax###
 const [variable, function] = useState(accepts an initial value);
+
+2. What is useEffect/
+Use effect is a hook which is used when we want to make an api call. usually it take some time to make a netwrok call and fetch the data from the server which relates to bad user experience, to avoid this we use useEffect(), 
+
+Intially when the component is loaded it will render the content, after intial render the callback function inside the useEffect is called and the data will be loaded, based on the state change the content will render once again
+
+useEffect syntax
+
+useEffect(() => {}, [])
+consists of a callback function and a dependency array, usually it is going to be an empty array
