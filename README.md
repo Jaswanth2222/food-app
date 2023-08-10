@@ -76,7 +76,7 @@ Use effect is a hook which is used when we want to make an api call. usually it 
 
 Intially when the component is loaded it will render the content, after intial render the callback function inside the useEffect is called and the data will be loaded, based on the state change the content will render once again
 
-useEffect syntax
+### useEffect syntax ####
 
 useEffect(() => {}, [])
 consists of a callback function and a dependency array, usually it is going to be an empty array
