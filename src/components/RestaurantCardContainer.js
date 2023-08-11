@@ -27,8 +27,8 @@ const RestaurantCardContainer = () => {
         const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=16.5401394&lng=80.6111829&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
         const jsondata = await data.json();
         console.log(jsondata);
-        setRestaurants(jsondata?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        setFilterRestaurants(jsondata?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
+        setRestaurants(jsondata?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setFilterRestaurants(jsondata?.data?.cards[5]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
     }
 
     console.log(restaurants)

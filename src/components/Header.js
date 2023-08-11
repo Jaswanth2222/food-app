@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import { LOGO_URL } from "../Utils/constants";
+import { useState } from "react";
 const Header = () => {
+    const [status, setStatus] = useState("logout");
   return (
     <div className="flex justify-between items-center bg-slate-200">
       <img src={LOGO_URL} alt="" className="w-24" />
@@ -21,6 +23,14 @@ const Header = () => {
             Contact
           </li>
         </Link>
+              
+        <button className="mx-2" onClick=
+            {
+                  () => {
+                      (status === "logout") ? setStatus("login") : setStatus("logout")
+                  }}>{status}
+        </button>
+            
       </div>
     </div>
   );
